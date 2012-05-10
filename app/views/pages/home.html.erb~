@@ -1,0 +1,6 @@
+<% if signed_in? %>
+	<%= render 'shared/form_and_feed' %>
+<% else %>
+	<%= render 'shared/sign_up_page' %>
+<% end %>
+
